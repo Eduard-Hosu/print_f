@@ -6,7 +6,7 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 12:51:05 by ehosu             #+#    #+#             */
-/*   Updated: 2021/10/21 12:28:52 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/21 12:52:33 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ int	handle_hexa_big(va_list arg)
 	while (i > 0)
 	{
 		temp = i % 16;
-		temp = handle_ascii(int temp);
+		temp = handle_ascii(temp);
 		str[pos] = temp;
 		pos++;
 		temp = 0;
