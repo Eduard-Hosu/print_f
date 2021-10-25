@@ -6,7 +6,7 @@
 /*   By: ehosu <ehosu@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 12:48:57 by ehosu             #+#    #+#             */
-/*   Updated: 2021/10/21 12:32:49 by ehosu            ###   ########.fr       */
+/*   Updated: 2021/10/25 12:04:21 by ehosu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int	helper(char *str)
 	count = 0;
 	while (*str)
 	{
-		count += write(1, &str, 1);
+		count += write(1, str, 1);
 		str++;
 	}
 	return (count);
